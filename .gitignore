@@ -1,8 +1,12 @@
+# Ignore environment variable files (sensitive information)
 .env
+
+# Ignore Terraform state and backup files
 *.tfstate
 *.tfstate.backup
-*.tfplan
-.terraform.tfstate.backup
-.terraform.tfstate
+
+# Ignore Terraform lock files (contains dependency versions and hashes)
 .terraform.lock.hcl
+
+# Ignore Terraform working directory (stores modules and provider plugins)
 .terraform/
