@@ -2,8 +2,8 @@
 .env
 
 # Ignore Terraform state and backup files
-*.tfstate
-*.tfstate.backup
+*.terraform.tfstate
+*.terraform.tfstate.backup
 
 # Ignore Terraform lock files (contains dependency versions and hashes)
 .terraform.lock.hcl
